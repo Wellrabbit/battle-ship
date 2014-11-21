@@ -1,0 +1,10 @@
+    
+           
+        int i = 1;
+
+        int[] AI = Enumerable.Range(1, 99 + 1).ToArray();
+        Random aiPlace = new Random();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            i= aiPlace.Next(1,100);
